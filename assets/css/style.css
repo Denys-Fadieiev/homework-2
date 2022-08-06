@@ -64,16 +64,19 @@ text-align: center;
 .info--block-3 > .info__item-3{
 	background-color: #926239;
 	color: white;
+	font-size: 17px;
 }
 
 .info--block-2 > .info__description{
 	border-color: #F4F4F4;
 	color: #926239;
+	font-size: 17px;
 }
 
 .info--block-3 > .info__item-2{
 	border-color: #F9F9F9;
 	color: #926239;
+	font-size: 17px;
 }
 
 .info--block-3{
@@ -85,6 +88,6 @@ text-align: center;
 .info__item-2,
 .info__item-3{
 	display: inline-block;
-	width: 33vw;
+	width: 33.333vw;
 }
 /* main style end */

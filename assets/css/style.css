@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+	font-size: 0;
 }
 
 body{
@@ -88,6 +89,6 @@ text-align: center;
 .info__item-2,
 .info__item-3{
 	display: inline-block;
-	width: 33.333vw;
+	width: 33.3vw;
 }
 /* main style end */

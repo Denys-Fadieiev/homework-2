@@ -16,7 +16,7 @@ body{
 width: 100vw;
 height: 100vh;
 padding: 392px 0;
-background-image: url(assets/img/beachshowcase.jpg);
+background-image: url("../img/beachshowcase.jpg");
 background-size: cover;
 background-position: center;
 text-align: center;

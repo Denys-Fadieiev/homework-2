@@ -1,94 +1,84 @@
 *{
 	box-sizing: border-box;
-	font-size: 0;
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+	--color-bronze:#926239;
+	--color-white: white;
+	--font-size-17: 17px;
 }
 
 body{
-	margin: 0;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 17px;
-	color: #926239;
+	color: var(--color-white);
+	font-size: var(--font-size-17);
+	text-align: center;
 	line-height: 1.6;
 }
 
+.bg-color-bronze{
+	background-color: var(--color-bronze);
+}
+
+.tc-bronze{
+	color: var(--color-bronze);
+}
+
 /* Header style start */
+
 .header{
-width: 100vw;
+width: 100%;
 height: 100vh;
 padding: 392px 0;
 background-image: url("../img/beachshowcase.jpg");
 background-size: cover;
 background-position: center;
-text-align: center;
 }
 
-.header__title{
+.header-title{
 	font-size: 50px;
 	font-weight: 700;
-	line-height: 1.2;
 }
 
-.header__text{
+.header-text{
 	font-size: 20px;
+	padding-bottom: 20px;
 }
 
-.header__btn{
-	margin-top: 20px;
-}
-
-.header__btn-link{
+.header-btn-link{
+	display: inline-block;
 	padding: 10px 20px;
-	border: #926239 1px solid;
+	border: var(--color-bronze) 1px solid;
 	border-radius: 10px;
-	color: #926239;
-	font-size: 18px;
 	text-decoration: none;
+	color: var(--color-bronze);
 }
 
-.header__btn-link:hover{
-	color: white;
-	background-color: #926239;
+.header-btn-link:hover{
+	color: var(--color-white);
+	background-color: var(--color-bronze);
 }
 /* header style end */
 
 /* main style start */
-.info,
-.info__item-1,
-.info__item-2,
-.info__item-3{
+
+.bc-color--milk{
+	background-color: #F4F4F4;
+}
+
+.info-desc{
 	padding: 20px;
-	text-align: center;
-} 
-
-.info--block-1,
-.info--block-3 > .info__item-1,
-.info--block-3 > .info__item-3{
-	background-color: #926239;
-	color: white;
-	font-size: 17px;
 }
 
-.info--block-2 > .info__description{
-	border-color: #F4F4F4;
-	color: #926239;
-	font-size: 17px;
+.info-fs{
+	font-size: 0;
 }
 
-.info--block-3 > .info__item-2{
-	border-color: #F9F9F9;
-	color: #926239;
-	font-size: 17px;
-}
-
-.info--block-3{
-	width: 100vw;
-	padding: 0;
-}
-
-.info__item-1,
-.info__item-2,
-.info__item-3{
+.wrapper-item{
 	display: inline-block;
-	width: 33.333vw;
+	font-size: var(--font-size-17);
+	width: 33.333%;
 }
 /* main style end */
